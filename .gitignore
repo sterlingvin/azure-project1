@@ -1,0 +1,17 @@
+# Terraform state and cache files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.backup
+*.log
+
+# Sensitive input files
+terraform.tfvars
+*.pem
+*.key
+*.env
+
+# OS and editor-specific
+*.swp
+.DS_Store
+.vscode/
